@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+
+.font-montserrat {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+}
+li {
+  font-family: "Montserrat";
+}
+a {
+  text-decoration: none;
+}
+.defold-color{
+    color:#FC3314;
+}
+.defold-bg{
+    background-color:#FC3314;
+}
+
+.logo{
+    letter-spacing: 0cap;
+}
+
+.ux{
+
+   top: 54.53px;
+    left: 629px;
+h1{
+    font-size: 395px;
+    font-weight: 800;
+    color:white;
+    text-shadow: 5px 5px 0 red, -5px -5px 0 red, 5px -5px 0 red, -5px 5px 0 red;
+    line-height: 289px;
+}
+}
+.x-red {
+    color: red;
+    font-size: 395px;
+    line-height: 289px;
+  }
+  @media (min-width: 768px) {
+    .ux h1 {
+        font-size: 250px;
+    }
+    .x-red {
+        font-size: 250px;
+    }
+}
+/* media query */
+@media (min-width: 1024px) {
+    .ux h1 {
+        font-size: 395px;
+        line-height: 289px;
+    }
+    .x-red {
+        font-size: 395px;
+        line-height: 289px;
+    }
+}
+
+
+
+  /* progess bar */
+  .skills-section {
+    width: 600px;
+    margin: 20px 0;
+  }
+  /* design-card */
+  .design-card {
+    width: 336px;
+    height: 426.15px;
+    background-color: #FFFFFF;
+    
+    img{
+      width: 100%;
+      height: auto;
+    }
+    h1{
+font-size: 12px;
+line-height: 1cm;
+
+    }
+    h6{
+font-size: 16px;
+font-weight: 800;
+line-height: 1cm;
+    }
+    p{
+font-size: 14px;
+
+    }
+    a{
+font-size: 12px;
+line-height: 2cm;
+    }
+  }
+
+
+  /* slide */
+
+  .slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}

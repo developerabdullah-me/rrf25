@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UX Designer Portfolio</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="/acest/style.css">
+
+
+<script src="/jquery.min.js"></script>
+</head>
+<body>
+
+
+<div class="bg-[#FFD4D0]">
+<div class=" overflow-hidden ">
+<header class="container mx-auto px-4 py-6 flex justify-around items-center relative z-10">
+    <!-- Logo -->
+    <div class="flex items-center">
+        <h1 class="text-4xl font-bold tracking-tight">
+            <span class="text-black">RR<span class="defold-color">F</span></span>
+            <span class="defold-color">EXAM</span>
+        </h1>
+    </div>
+
+    <div class="absolute left-[36%] w-[146px] -top-6 h-[89px] bg-[#FC3314] rounded-b-full -z-10 opacity-90"></div>
+
+    <!-- Desktop -->
+    <nav class="hidden md:flex space-x-8">
+        <a href="#about" class="text-gray-900 hover:text-red-500 font-bold">About</a>
+        <a href="#services" class="text-gray-900 hover:text-red-500 font-bold">Services</a>
+        <a href="#portfolio" class="text-gray-900 hover:text-red-500 font-bold">Portfolio</a>
+        <a href="#blog" class="text-gray-900 hover:text-red-500 font-bold">Blog</a>
+    </nav>
+
+    <a href="#contact" class="hidden md:block bg-gray-900 text-white px-6 py-2 font-bold hover:bg-gray-800 transition duration-300">Let's Talk</a>
+
+    <!-- Mobile Menu btn -->
+    <button id="menu-btn" class="block md:hidden text-gray-900 focus:outline-none">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+    </button>
+</header>
+
+<!-- Mobile menue -->
+    
+<nav id="mobile-menu" class="hidden md:hidden absolute top-20 left-0 w-full py-4">
+    <a href="#about" class="block py-2 px-4 text-gray-900 ">About</a>
+    <a href="#services" class="block py-2 px-4 text-gray-900 ">Services</a>
+    <a href="#portfolio" class="block py-2 px-4 text-gray-900 ">Portfolio</a>
+    <a href="#blog" class="block py-2 px-4 text-gray-900 ">Blog</a>
+    <a href="#contact" class="block py-2 px-4 text-white bg-gray-900  font-bold">Let's Talk</a>
+</nav>
+
+<!-- Hero section -->
+<section class=" mx-auto flex flex-col md:flex-row justify-around gap-10 items-center px-40 mt-20 ">
+    <div class="md:w-1/2">
+        <p class="text-gray-700 text-lg mb-4">UX Designer</p>
+        
+        <h1 class="text-5xl md:text-5xl font-bold text-gray-900 mb-4">
+            Hi There, I'm <br/>
+            <span class="text-red-500">John Smith</span>
+        </h1>
+        
+        <p class="text-gray-700 mb-8 max-w-lg">
+            Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+            <a href="#hire" class="bg-gray-900 text-white px-8 py-2 font-bold hover:bg-gray-800 transition duration-300 text-center">Hire Me</a>
+            <a href="#portfolio" class="border border-gray-900 text-gray-900 px-8 py-2 font-bold hover:bg-gray-100 transition duration-300 text-center">Portfolio</a>
+        </div>
+        
+    </div>
+
+    <div class="md:w-1/2 relative">
+        <div class="relative flex items-center justify-center h-96 md:h-auto">
+            <div class="ux absolute inset-0 flex items-center justify-center">
+                <div class="relative">
+                    <div class=""> <img src="/img/shape_73.png" alt="" class="absolute left-28  w-[90.53px]">
+                    <img src="/img/shape_117.png" alt="" class="absolute left-28 top-10 w-[90.53px]"></div>
+                    <h1 class="text-9xl font-bold tracking-tighter">UX</h1>
+                    
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2" style="left: 70%;">
+                        <h2 class="x-red font-bold tracking-tighter defold-color">X</h2>
+                    </div>
+                </div>
+            </div>
+            
+                <div class="container mx-auto">
+                    <div class="relative z-10">
+                        <img 
+                            src="/img/uxman.png" 
+                            alt="John Smith - UX Designer" 
+                            class="w-full sm:w-[300px] md:w-[500px] lg:w-[600px] 
+                            max-w-full h-auto"
+                        />
+                    </div>                           
+                </div>
+            </div>                           
+        </div>
+    </div>
+</section>
+
+
+</div>
+
+<!-- About -->
+<div class=" bg-black text-white pt-10">
+<div class="">
+    <div class="text-center py-5  w-3/6 mx-auto">
+        <h1 class="pb-5 text-2xl font-bold">About Me</h1>
+        <p class="">I'm John Smith, a UI/UX designer dedicated to crafting intuitive and 
+            visually stunning digital experiences. 
+            With a passion for user-centric design, I transform ideas into 
+            functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
+    </div>
+
+    <div class="grid place-items-center">
+        <div class="w-8/12 md:w-8/12 mx-auto py-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-11 items-center text-center">
+            <div>
+                <h1 class="text-[#FFD4D0] text-4xl font-bold">502</h1>
+                <p>Projects Done</p>
+            </div>
+            <div>
+                <h1 class="text-[#FFD4D0] text-4xl font-bold">10+</h1>
+                <p>Projects Done</p>
+            </div>
+            <div>
+                <h1 class="text-[#FFD4D0] text-4xl font-bold">502</h1>
+                <p>Projects Done</p>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="relative">
+    <div class=" ml-[47%] w-24 h-12 bg-[#FC3314] rounded-t-full  opacity-90"></div>
+
+</div>
+</div>
+</div>
+
+<!-- Services -->
+<div class="bg-[#F8F8F8]">
+<div class="">
+    <div class="text-center py-5 w-3/6 mx-auto">
+        <h1 class="pb-5 text-2xl font-bold">Services</h1>
+        <p class="">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+    </div>
+    <div class="flex flex-wrap justify-center md:justify-around w-10/12 mx-auto items-center py-10 gap-6 ">
+        <div class="w-full sm:w-[250px] md:w-[220px]">
+            <img class="defold-color pb-5" src="/img/sun.png" alt="">
+            <p class="pb-3 font-bold">Design</p>
+            <p class="text-[14px]">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
+        </div>
+        <div class="w-full sm:w-[250px] md:w-[220px]">
+            <img class="defold-color pb-5" src="/img/Vectrrror.png" alt="">
+            <p class="pb-3 font-bold">Branding</p>
+            <p class="text-[14px]">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
+        </div>
+        <div class="w-full sm:w-[250px] md:w-[220px]">
+            <img class="defold-color pb-5" src="/img/search.svg" alt="">
+            <p class="pb-3 font-bold">UX Research</p>
+            <p class="text-[14px]">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
+        </div>
+        <div class="w-full sm:w-[250px] md:w-[220px]">
+            <img class="defold-color pb-5" src="/img/clr.png" alt="">
+            <p class="pb-3 font-bold">Usability Testing</p>
+            <p class="text-[14px]">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>
+        </div>
+    </div>
+    
+    </div>
+    </div>
+    <!-- My Portfolio -->
+<section id="portfolio" class=" pt-0 mt-0">
+<div class="relative bg-[#FFD4D0]">
+<div class="pb-32">
+    <div class="text-center py-5 w-full md:w-4/5 lg:w-3/6 mx-auto px-4"> 
+        <h1 class="font-bold text-2xl md:text-xl pb-5">My Portfolio</h1>
+        <p class="text-base">
+            Explore my design services, from user interface and experience 
+            to prototyping and testing. Let's craft exceptional 
+            digital experiences together.
+        </p>
+    </div>
+</div>
+
+        <!-- Portfolio -->
+
+<div class="bg-[#F7F7F7] py-24">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-11 w-10/12 md:w-10/12 mx-auto items-center transform -translate-y-52">
+        <div class="">
+            <img src="/img/education.png" alt="Educational Platform" class="w-full">
+            <div class="flex justify-between p-4 items-center">
+                <div>
+                    <h2 class="font-bold text-lg">Educational Platform</h2>
+                    <p class="pt-2 text-sm">Web Design / Usability Testing</p>
+                </div>
+                <img class="bg-red-500 p-2 rounded-full text-white h-10 w-10" src="/img/send.png" alt="View project">
+            </div>
+        </div>
+        
+        <div class="">
+            <img src="/img/tarvel.png" alt="Travel App Design" class="w-full">
+            <div class="flex justify-between p-4 items-center">
+                <div>
+                    <h2 class="font-bold text-lg">Travel App Design</h2>
+                    <p class="pt-2 text-sm">UX Research / App Design</p>
+                </div>
+                <img class="bg-red-500 p-2 rounded-full text-white h-10 w-10" src="/img/send.png" alt="View project">
+            </div>
+        </div>
+        
+        <div class="">
+            <img src="/img/Personal Page.png" alt="Personal Page" class="w-full">
+            <div class="flex justify-between p-4 items-center">
+                <div>
+                    <h2 class="font-bold text-lg">Personal Page</h2>
+                    <p class="pt-2 text-sm">Web Design</p>
+                </div>
+                <img class="bg-red-500 p-2 rounded-full text-white h-10 w-10" src="/img/send.png" alt="View project">
+            </div>
+        </div>
+        
+        <div class="">
+            <img src="/img/Furniture Mobile App.png" alt="Furniture Mobile App" class="w-full">
+            <div class="flex justify-between p-4 items-center">
+                <div>
+                    <h2 class="font-bold text-lg">Furniture Mobile App</h2>
+                    <p class="pt-2 text-sm">App Design</p>
+                </div>
+                <img class="bg-red-500 p-2 rounded-full text-white h-10 w-10" src="/img/send.png" alt="View project">
+            </div>
+        </div>
+        
+        <div class="">
+            <img src="/img/Coffee House Landing Page.png" alt="Coffee House Landing Page" class="w-full">
+            <div class="flex justify-between p-4 items-center">
+                <div>
+                    <h2 class="font-bold text-lg">Coffee House Landing Page</h2>
+                    <p class="pt-2 text-sm">UX Research / Web Design</p>
+                </div>
+                <img class="bg-red-500 p-2 rounded-full text-white h-10 w-10" src="/img/send.png" alt="View project">
+            </div>
+        </div>
+        
+        <div class="">
+            <img src="/img/Home Services Page.png" alt="Home Services Page" class="w-full">
+            <div class="flex justify-between p-4 items-center">
+                <div>
+                    <h2 class="font-bold text-lg">Home Services Page</h2>
+                    <p class="pt-2 text-sm">Web Design / Marketing</p>
+                </div>
+                <img class="bg-red-500 p-2 rounded-full text-white h-10 w-10" src="/img/send.png" alt="View project">
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Design Skills -->
+<section id="skills" class="mt-0 pt-0">
+<div class="">
+<div class="text-center py-5 w-full md:w-4/5 lg:w-3/6 mx-auto px-4"> 
+    <h1 class="font-bold text-2xl md:text-xl pb-5">Core Design Skills</h1>
+    <p class="text-base pb-5">
+        I excel in essential design skills, creating visually stunning and functional digital 
+        experiences. From UI design to UX research,
+        my passion is to craft effective and memorable digital solutions.
+    </p>
+</div>
+<!-- progress -->
+<div class=" skills-section grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 md:gap-8 lg:gap-11 w-10/12 md:w-10/12 mx-auto items-center ">
+    <div class="skill-item">
+    <div class="mb-8">
+        <span class="font-bold">Interaction Design</span>
+    </div>
+    <div class="flex items-center gap-4">
+        <div class="w-full h-2 bg-[#f0f0f0] rounded-lg overflow-hidden">
+            <div class="h-full bg-black rounded-md " style="width: 60%"> </div>
+            </div>
+            <span class="skill-percent">60%</span>
+    </div>
+    </div>
+    
+    <div class="skill-item">
+    <div class="mb-8">
+        <span class="font-bold">Usability Testing</span>
+        
+    </div>
+    <div class="flex items-center gap-4">
+        <div class="w-full h-2 bg-[#f0f0f0] rounded-lg overflow-hidden">
+            <div class="h-full bg-black rounded-md" style="width: 70%"></div>
+            </div>
+            <span class="skill-percent">70%</span>
+    </div>
+    
+    </div>
+    
+    <div class="skill-item">
+    <div class="mb-8">
+        <span class="font-bold">User Research</span>
+    </div>
+    <div class="flex items-center gap-4">
+        <div class="w-full h-2 bg-[#f0f0f0] rounded-lg overflow-hidden">
+            <div class="h-full bg-black rounded-md " style="width: 45%"></div>
+            </div>
+        <span class="skill-percent">45%</span>
+    </div>
+    
+    </div>
+    <div class="skill-item">
+    <div class="mb-8">
+        <span class="font-bold">User Research</span>
+    </div>
+    <div class="flex items-center gap-4">
+        <div class="w-full h-2 bg-[#f0f0f0] rounded-lg overflow-hidden">
+            <div class="h-full bg-black rounded-md " style="width: 45%"></div>
+            </div>
+        <span class="skill-percent">45%</span>
+    </div>
+    
+    </div>
+    <div class="skill-item">
+    <div class="mb-8">
+        <span class="font-bold">User Research</span>
+    </div>
+    <div class="flex items-center gap-4">
+        <div class="w-full h-2 bg-[#f0f0f0] rounded-lg overflow-hidden">
+            <div class="h-full bg-black rounded-md " style="width: 45%"></div>
+            </div>
+        <span class="skill-percent">45%</span>
+    </div>
+    
+    </div>
+    <div class="skill-item">
+    <div class="mb-8">
+        <span class="font-bold">User Research</span>
+    </div>
+    <div class="flex items-center gap-4">
+        <div class="w-full h-2 bg-[#f0f0f0] rounded-lg overflow-hidden">
+            <div class="h-full bg-black rounded-md " style="width: 45%"></div>
+            </div>
+        <span class="skill-percent">45%</span>
+    </div>
+    
+    </div>
+</div>
+
+</div>
+</section>
+</div>
+</div>
+</section>
+
+<!-- Testemonials -->
+<div class="bg-[#FFD4D0]">
+<div class="">
+<div class=" mx-auto w-[122px] h-[60px] bg-[#FC3314] rounded-b-full -z-10 opacity-90"></div>
+<div class="w-8/12 mx-auto py-10 text-center relative">
+    <h1 class="font-bold text-2xl pb-5">Testimonials</h1>
+    <div class="slider">
+            <!-- slIDE -->
+        <div class="slide w-8/12 mx-auto">
+            <p>Sara Jones's designs are both visually captivating and highly effective.
+                She transformed our website, enhancing user engagement and conversions.
+                Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+            <div class="flex items-center justify-center gap-4 pt-5">
+                <img src="/img/Johan Smith.png" alt="Johan Smith">
+                <p><span class="font-bold">Johan Smith</span> / CEO of XYZ Company</p>
+            </div>
+        </div>
+        
+        <div class="slide w-8/12 mx-auto">
+            <p>Sara Jones's designs are both visually captivating and highly effective.
+                She transformed our website, enhancing user engagement and conversions.
+                Her attention to detail and creative approach are top-notch. Highly recommended!2</p>
+            <div class="flex items-center justify-center gap-4 pt-5">
+                <img src="/img/Johan Smith.png" alt="Another Person">
+                <p><span class="font-bold">Another Person</span> / CEO of ABC Company</p>
+            </div>
+        </div>
+    </div>
+    <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2  p-2 rounded-full">❮</button>
+    <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2  p-2 rounded-full">❯</button>
+</div>
+
+</div>
+</div>
+<div class=""></div>
+
+<!-- Design Insights and Inspiration -->
+<div class=" py-16 bg-[#F7F7F7]">
+    <div class="w-5/12 mx-auto text-center">
+        <h1 class="font-bold text-3xl pb-5">Design Insights and Inspiration</h1>
+        <p>Discover industry insights, expert tips, and design inspiration. Stay updated with the latest trends in web design and user experience.</p>
+    </div>
+    <div class=" flex flex-wrap justify-center gap-10 pt-16">
+        <div class="design-card">
+            <img class="" src="/img/typography.png" alt="">
+            <div class="px-4">
+            <h1 class="pt-2">August 15, 2023 / UX</h1>
+            <h6>typography</h6>
+            <p class="w-[260px]">Discover the power of microinteractions in enhancing user experience and engagement.</p>
+            <a href="#" class="flex items-center font-bold">Read More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-[14px]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+                </a>
+            </div>
+        </div>
+        <div class="design-card">
+            <img class="" src="/img/Color Psychology in UX.png" alt="">
+            <div class="px-4">
+            <h1 class="pt-2">August 15, 2023 / UX</h1>
+            <h6>Color Psychology in UX</h6>
+            <p class="w-[260px]">Discover the power of microinteractions in enhancing user experience and engagement.</p>
+            <a href="#" class="flex items-center font-bold">Read More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-[14px]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+                </a>
+            </div>
+        </div>
+        <div class="design-card">
+            <img class="" src="/img/Boosting UX with Microinteractions.png" alt="">
+            <div class="px-4">
+            <h1 class="pt-2">August 15, 2023 / UX</h1>
+            <h6>Boosting UX with Microinteractions</h6>
+            <p class="w-[260px]">Discover the power of microinteractions in enhancing user experience and engagement.</p>
+            <a href="#" class="flex items-center font-bold">Read More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-[14px]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Get in Touch -->
+<div class=" h-[715px] bg-[#FFD4D0] mx-auto px-4 flex items-center justify-center relative">
+    <div class="absolute left-0 top-1/2 transform -translate-y-1/2">
+        <div class="w-[60px] h-[122px] bg-[#FC3314] rounded-r-full -z-10 opacity-90"></div>
+    </div>
+
+    <div class="flex flex-col md:flex-row items-center justify-center gap-12 w-full">
+        <div class="w-full md:w-5/12">
+            <h1 class="text-3xl font-bold mb-4">Get in Touch</h1>
+            <p class="text-gray-600 mb-6">Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
+              
+            <div class="space-y-4">
+                <a href="tel:+12055872321" class="flex items-center gap-3 text-gray-700 hover:text-red-500 transition">
+                    <img src="/img/call.png" alt="Call" class="w-6 h-6">
+                    +1 205 587 2321
+                </a>
+                <a href="mailto:contact@sarajonesdesign.com" class="flex items-center gap-3 text-gray-700 hover:text-red-500 transition">
+                    <img src="/img/inbox.png" alt="Email" class="w-6 h-6">
+                    contact@sarajonesdesign.com
+                </a>
+                <div class="flex items-start gap-3 text-gray-700">
+                    <img src="/img/carbon_location-filled.png" alt="Location" class="w-6 h-6 mt-1">
+                    1234 Design Street, Creativeville, Webland, Imaginary State, 98765
+                </div>
+                <div class="flex items-center gap-4 ">
+                    <img src="/img/facebook.png" alt="Facebook" class="w-6 h-6">
+                    <img src="/img/xxxxxxx.png" alt="Twitter" class="w-6 h-6">
+                    <img src="/img/jam.png" alt="Instagram" class="w-6 h-6">
+                    <img src="/img/linkdin.png" alt="LinkedIn" class="w-6 h-6">
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full md:w-5/12">
+            <form class=" p-6">
+                <div class="space-y-4">
+                    <input
+                        type="text"
+                        placeholder="First name"
+                        class="w-full px-3 py-2   focus:outline-none "
+                    >
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        class="w-full px-3 py-2   focus:outline-none "
+                    >
+                    <input
+                        type="tel"
+                        placeholder="Phone number"
+                        class="w-full px-3 py-2   focus:outline-none "
+                    >
+                    <textarea
+                        placeholder="Your message"
+                        class="w-full px-3 py-2   focus:outline-none  min-h-[120px]"
+                    ></textarea>
+                    <button
+                        type="submit"
+                        class="w-52 py-2 bg-black text-white"
+                    >
+                    Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<div class="h-[359px] text-white bg-black flex flex-col justify-center">
+    <div>
+        <ul class="flex items-center justify-center gap-11 py-8">
+            <li><a href="#" class="hover:text-gray-300 transition">About</a></li>
+            <li><a href="#" class="hover:text-gray-300 transition">Services</a></li>
+            <li><a href="#"><img src="/img/Logowhite.png" alt="Logo"></a></li>
+            <li><a href="#" class="hover:text-gray-300 transition">Profile</a></li>
+            <li><a href="#" class="hover:text-gray-300 transition">Blog</a></li>
+        </ul>
+    </div>
+    <div>
+        <p class="text-center">Follow me on social media:</p>
+        <div class="flex justify-center items-center gap-4 pt-5">
+            <a href="#" class="hover:opacity-70 transition">
+                <img src="/img/facebook.png" alt="Facebook" class="w-6 h-6">
+            </a>
+            <a href="#" class="hover:opacity-70 transition">
+                <img src="/img/xxxxxxx.png" alt="Twitter" class="w-6 h-6">
+            </a>
+            <a href="#" class="hover:opacity-70 transition">
+                <img src="/img/jam.png" alt="Instagram" class="w-6 h-6">
+            </a>
+            <a href="#" class="hover:opacity-70 transition">
+                <img src="/img/linkdin.png" alt="LinkedIn" class="w-6 h-6">
+            </a>
+        </div>
+    </div>
+</div>
+<script src="/script.js"></script>
+</body>
+</html>
